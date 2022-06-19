@@ -1,0 +1,16 @@
+.list-item a h3
+{
+    transition: all 0.5s;
+}
+
+.list-item a h3:hover
+{
+    color: rgb(228, 40, 40);
+    transform: scale(1.1);
+}
+
+#list-container
+{
+    display: flex;
+    flex-direction: column;
+}
